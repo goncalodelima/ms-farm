@@ -1,0 +1,14 @@
+explosive:
+  name: "Explosivo"
+  description:
+    - "&7Tenha chance de criar uma"
+    - "&7explosão que quebra as farms"
+  price: 10000000.0
+  chance: 10000 #um número é gerado de 0 a 1, se o número for maior que o nível da tesoura a dividir pelo número inserido aqui, o encantamento não é aplicado
+fortune:
+  name: "Fortuna"
+  description:
+    - "&7Receba mais cash ao"
+    - "&7quebrar uma farm"
+  price: 1000000.0
+  cashAmount: 1000.0 #Fórmula: (cash da farm + cash da farm * level da tesoura / cashAmount + cash da farm * level da tesoura) * quantidade de farms

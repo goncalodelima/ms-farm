@@ -1,0 +1,74 @@
+farm:
+  size: 54
+  title: "Fazendeiro"
+  farm:
+    slot: 3
+    name: "&6Fazendas"
+    lore:
+      - "&7Melhore as suas fazendas"
+      - "&7e receba mais cash!"
+      - ""
+      - "&fVocê está aqui."
+    glow: true
+  ranking:
+    slot: 5
+    name: "&6TOP Fazendeiros"
+    lore:
+      - "&7Veja os jogadores que"
+      - "&7mais farms quebraram."
+    glow: false
+  requirementFarmsAmount: 5
+  multiplier: 1 # este número é multiplicado pelo número indicado em cima, para mudar o número de farms necessárias para a troca
+  multiplier1: 5
+  multiplier2: 10
+  trade: 1 #este número é o número de farms dados ao trocar
+  trade1: 5
+  trade2: 10
+  enoughFarms: "&eClique para trocar"
+  insufficientFarms: "&cRequisitos insuficientes"
+  item:
+    name: "&eFazenda de %farmName%"
+    lore:
+      - "&7Evolua o tipo de sua"
+      - "&7fazenda para %farmName%"
+      - ""
+      - " &fPreço:"
+      - " §8● §7%requirementFarmsAmount%x Fazendas de %requirementFarmsName%"
+      - ""
+      - "%status%"
+
+ranking:
+  size: 45
+  title: "TOP Fazendeiros"
+  layout:
+    - "XXXFXRXXX"
+    - "XXXXXXXXX"
+    - "XOOOOOOOX"
+    - "XXXOOOXXX"
+    - "XXXXXXXXX"
+  hoe:
+    name: "&6Enxadas"
+    lore:
+      - "&7Clique aqui para evoluir"
+      - "&7a sua enxada e receber"
+      - "&7mais recompensas!"
+    glow: false
+  farm:
+    name: "&6Fazendas"
+    lore:
+      - "&7Melhore as suas fazendas"
+      - "&7e receba mais cash!"
+    glow: false
+  ranking:
+    name: "&6TOP Fazendeiros"
+    lore:
+      - "&7Veja os jogadores que"
+      - "&7mais farms quebraram"
+      - ""
+      - "&fVocê está aqui."
+    glow: true
+  item:
+    nobody: "&cNinguém"
+    name: "&f%position%º &e%player%"
+    lore:
+      - "&7Farms: &f%farmsBroken%"

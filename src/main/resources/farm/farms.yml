@@ -1,0 +1,35 @@
+CROPS:
+  name: "Trigo"
+  display:
+    material: "HAY_BLOCK"
+    name: "&eFazenda de Trigo"
+    lore:
+      - "&7Coloque este bloco no chão"
+      - "&7para que ele crie uma farm."
+  cash: 10.0
+  stack: 25
+  data: 7
+POTATO:
+  name: "Batata"
+  display:
+    material: "HAY_BLOCK"
+    name: "&eFazenda de Batata"
+    lore:
+      - "&7Coloque este bloco no chão"
+      - "&7para que ele crie uma farm."
+  requirement: "CROPS:5"
+  cash: 50.0
+  stack: 25
+  data: 7
+NETHER_WARTS:
+  name: "Fungo"
+  display:
+    material: "HAY_BLOCK"
+    name: "&eFazenda de Fungo"
+    lore:
+      - "&7Coloque este bloco no chão"
+      - "&7para que ele crie uma farm."
+  requirement: "POTATO:5"
+  cash: 100.0
+  stack: 25
+  data: 3

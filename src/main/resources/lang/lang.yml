@@ -1,0 +1,13 @@
+no-permission: "&cVocê não possui permissão para executar este comando."
+no-player: "&cJogador inválido."
+no-farm: "&cFazenda inválida."
+no-amount: "&cQuantidade inválida."
+farm-sent: "&aVocê enviou &f%amount% &afazendas para &f%target%&a."
+book-sent: "&aVocê enviou um livro do tipo: &f'%enchant%' &ade nível &f'%level%' &apara &f%target%&a."
+insufficient-farms-on-trade: "&cVocê não possui fazendas o suficiente para efetuar a troca."
+actionbar: "&6+✪ %cash%"
+help:
+  - "§e§lAJUDA"
+  - ""
+  - "§e/farm give <jogador> <type> <amount> §7- §7enviar fazenda"
+  - ""

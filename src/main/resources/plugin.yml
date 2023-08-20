@@ -1,0 +1,10 @@
+name: ms-farm
+version: '${project.version}'
+main: pt.dioguin.farm.FarmPlugin
+depend: [InventoryFramework]
+softdepend: [Multiverse-Core]
+authors: [ yDioguin_, ReeachyZ_ ]
+description: https://minecraft-solutions.com
+commands:
+  farm:
+    aliases: [ fazenda ]

@@ -1,0 +1,16 @@
+MySQL:
+  enable: false #se false, vai usar SQLite
+  hostname: "hostname"
+  database: "database"
+  username: "root"
+  password: "password"
+  port: 3306
+
+currency:
+  plugin: "ms-economies" #ms-economies ou NextCash
+  type: "cash" #ignore caso a opção em cima seja NextCash
+
+delay-farm: 3 #número de segundos para crescer uma etapa da plantação das farms
+farms-line-number: 6 #insira -1 para caso não queira exibir as farms quebradas na tesoura
+farms-line-on-update: "&7%farms% farms quebradas."
+test-world: "test-world" #mundo para ver a data da farm para colocar na config, ou então, digite //info com a picareta de diamante na mão se tiver worldedit (vai de sua preferência) Caso utilize o worldedit, não precisa criar nenhum mundo, basta ignorar esta linha
